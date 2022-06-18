@@ -8,7 +8,14 @@ module.exports = {grootsteGetal}
 
 function grootsteGetal(a, b) {
   var uitkomst = undefined;
-  // vul hieronder aan
-  
+ if(a > b){
+  uitkomst = a;
+ }
+ else if(a < b){
+  uitkomst = b;
+ }
+else if(a === b){
+  uitkomst = a;
+}
   return uitkomst;
 }
